@@ -1,12 +1,9 @@
-/* General page style */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f6f9;
     color: #333;
     margin: 0;
 }
-
-/* Navigation bar */
 .navbar {
     background-color: #123456;
 }
@@ -20,7 +17,6 @@ body {
     color: #ffc107;
 }
 
-/* Home hero section */
 .hero {
     background-color: #dcecff;
     padding: 80px 20px;
@@ -36,7 +32,6 @@ body {
     font-size: 18px;
 }
 
-/* General sections */
 .section {
     padding: 40px 0;
 }
@@ -47,7 +42,6 @@ body {
     margin-bottom: 25px;
 }
 
-/* Profile and gallery images */
 .profile-img {
     width: 180px;
     height: 180px;
@@ -61,12 +55,10 @@ body {
     object-fit: cover;
 }
 
-/* Cards */
 .card {
     margin-bottom: 20px;
 }
 
-/* Footer */
 footer {
     background-color: #123456;
     color: white;
@@ -80,14 +72,12 @@ footer a {
     text-decoration: none;
 }
 
-/* Contact form */
 .contact-form {
     background-color: white;
     padding: 25px;
     border-radius: 8px;
 }
 
-/* Make the hero heading smaller on phones */
 @media (max-width: 576px) {
     .hero {
         padding: 50px 15px;
